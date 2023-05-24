@@ -1,0 +1,87 @@
+Dependencies for Project 'projekt', Target 'FRDM-KL05ZJ': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x63BD0DA7)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_FRDM-KL05ZJ-IC:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626FAD4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63E9EC)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+I (frdm_bsp.h)(0x5F79D65C)
+I (lcd1602.h)(0x5FC545E6)
+I (i2c.h)(0x5FBFDF5A)
+I (leds.h)(0x6050E74E)
+I (klaw.h)(0x6050E63E)
+I (tsi.h)(0x5F845F10)
+I (TPM.h)(0x5FA060E0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F63E9EC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5F63E9FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5F63E9EC)
+F (.\i2c.c)(0x60887436)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_FRDM-KL05ZJ-IC:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (i2c.h)(0x5FBFDF5A)
+I (frdm_bsp.h)(0x5F79D65C)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626FAD4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63E9EC)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+F (.\klaw.c)(0x63BCEB80)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_FRDM-KL05ZJ-IC:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\klaw.o --omf_browse .\objects\klaw.crf --depend .\objects\klaw.d)
+I (klaw.h)(0x6050E63E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626FAD4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63E9EC)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+F (.\lcd1602.c)(0x5FC550D8)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_FRDM-KL05ZJ-IC:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\lcd1602.o --omf_browse .\objects\lcd1602.crf --depend .\objects\lcd1602.d)
+I (lcd1602.h)(0x5FC545E6)
+I (frdm_bsp.h)(0x5F79D65C)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626FAD4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63E9EC)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+I (i2c.h)(0x5FBFDF5A)
+F (.\leds.c)(0x6050E74E)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_FRDM-KL05ZJ-IC:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\leds.o --omf_browse .\objects\leds.crf --depend .\objects\leds.d)
+I (leds.h)(0x6050E74E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626FAD4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63E9EC)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+F (.\tsi.c)(0x5F845F10)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_FRDM-KL05ZJ-IC:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\tsi.o --omf_browse .\objects\tsi.crf --depend .\objects\tsi.d)
+I (tsi.h)(0x5F845F10)
+I (frdm_bsp.h)(0x5F79D65C)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626FAD4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63E9EC)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+F (.\TPM.c)(0x63BCF658)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_FRDM-KL05ZJ-IC:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\tpm.o --omf_browse .\objects\tpm.crf --depend .\objects\tpm.d)
+I (TPM.h)(0x5FA060E0)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626FAD4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63E9EC)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
+F (RTE\Device\MKL05Z32xxx4\startup_MKL05Z4.s)(0x55FBCAE8)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_FRDM-KL05ZJ-IC:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include--pd "__UVISION_VERSION SETA 532" --pd "_RTE_ SETA 1" --pd "MKL05Z32xxx4 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_mkl05z4.lst --xref -o .\objects\startup_mkl05z4.o --depend .\objects\startup_mkl05z4.d)
+F (RTE\Device\MKL05Z32xxx4\system_MKL05Z4.c)(0x55FBCAE8)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_FRDM-KL05ZJ-IC:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="532" -D_RTE_ -DMKL05Z32xxx4 -D_RTE_-o .\objects\system_mkl05z4.o --omf_browse .\objects\system_mkl05z4.crf --depend .\objects\system_mkl05z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F63E9EC)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BDE7A)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626FAD4E)
+I (C:\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
+I (C:\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL05Z4.h)(0x55FBCAE8)
